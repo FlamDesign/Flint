@@ -88,7 +88,7 @@
       blurb.textContent = filter === "all" ? `All ${cards.length} pieces from season one.` : cats[filter].blurb;
       count.textContent = `${n} ${n === 1 ? "piece" : "pieces"}`;
       $$(".nav-cats a").forEach(a => a.toggleAttribute("aria-current", a.href.endsWith("c=" + filter)));
-      if (push) history.replaceState(null, "", filter === "all" ? "shop.html" : `shop.html?c=${filter}`);
+      if (push) history.replaceState(null, "", filter === "all" ? "shop" : `shop?c=${filter}`);
     };
     const sort = mode => {
       const by = { featured: (a, b) => a.dataset.order - b.dataset.order, low: (a, b) => a.dataset.price - b.dataset.price, high: (a, b) => b.dataset.price - a.dataset.price }[mode];
@@ -154,7 +154,7 @@
       if (existing) existing.qty += qty;
       else lines.push({
         sku: v.sku, name: P.name, option: P.values.length > 1 ? value.label : "", size: size || "",
-        price: value.price, qty, img: value.img.replace(/^\.\.\//, ""), url: `products/${P.slug}.html`,
+        price: value.price, qty, img: value.img.replace(/^\.\.\//, ""), url: `products/${P.slug}`,
       });
       save(lines); render(); openCart();
     });

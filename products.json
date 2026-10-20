@@ -39,7 +39,7 @@
       "groupSku": "FLT-HOOD",
       "name": "Heavyweight Hoodie",
       "category": "wear",
-      "url": "products/heavyweight-hoodie.html",
+      "url": "products/heavyweight-hoodie",
       "summary": "A 480gsm brushed fleece hoodie with a boxy body, dropped shoulders and a small embroidered spark on the chest.",
       "details": [
         "480gsm brushed-back cotton fleece",
@@ -242,7 +242,7 @@
       "groupSku": "FLT-TEE",
       "name": "Boxy Tee",
       "category": "wear",
-      "url": "products/boxy-tee.html",
+      "url": "products/boxy-tee",
       "summary": "A dense 260gsm jersey tee with a cropped boxy cut and a tight ribbed collar that keeps its shape.",
       "details": [
         "260gsm combed cotton jersey",
@@ -390,7 +390,7 @@
       "groupSku": "FLT-CREW",
       "name": "Loopback Crew",
       "category": "wear",
-      "url": "products/loopback-crew.html",
+      "url": "products/loopback-crew",
       "summary": "An unbrushed loopback crewneck with a quiet embroidered wordmark. Lighter than the hoodie, made for in-between weather.",
       "details": [
         "400gsm loopback terry",
@@ -538,7 +538,7 @@
       "groupSku": "FLT-CAP",
       "name": "Six-Panel Cap",
       "category": "wear",
-      "url": "products/six-panel-cap.html",
+      "url": "products/six-panel-cap",
       "summary": "An unstructured washed twill cap with a low crown and a spark stitched on the front.",
       "details": [
         "Washed cotton twill",
@@ -615,7 +615,7 @@
       "groupSku": "FLT-BEAN",
       "name": "Rib Beanie",
       "category": "wear",
-      "url": "products/rib-beanie.html",
+      "url": "products/rib-beanie",
       "summary": "A chunky merino rib beanie with a deep cuff and a small woven label.",
       "details": [
         "Extra-fine merino wool",
@@ -678,7 +678,7 @@
       "groupSku": "FLT-TOTE",
       "name": "Canvas Tote",
       "category": "carry",
-      "url": "products/canvas-tote.html",
+      "url": "products/canvas-tote",
       "summary": "A 16oz canvas tote with long handles, an inside pocket and a small screen print near the base.",
       "details": [
         "16oz heavyweight cotton canvas",
@@ -733,7 +733,7 @@
       "groupSku": "FLT-SLV",
       "name": "Felt Laptop Sleeve",
       "category": "carry",
-      "url": "products/felt-laptop-sleeve.html",
+      "url": "products/felt-laptop-sleeve",
       "summary": "A thick wool felt sleeve with a leather pull tab. Fits most 13 and 14 inch laptops.",
       "details": [
         "5mm pressed wool felt",
@@ -788,7 +788,7 @@
       "groupSku": "FLT-PEN",
       "name": "Machined Pen",
       "category": "desk",
-      "url": "products/machined-pen.html",
+      "url": "products/machined-pen",
       "summary": "A weighty ballpoint turned from solid bar stock, with a knurled grip and a tiny engraved spark.",
       "details": [
         "CNC machined from solid bar",
@@ -845,7 +845,7 @@
       "groupSku": "FLT-GEL",
       "name": "Gel Pen Trio",
       "category": "desk",
-      "url": "products/gel-pen-trio.html",
+      "url": "products/gel-pen-trio",
       "summary": "Three slim 0.5mm gel pens in the house colors. Smooth, quick-drying, refillable.",
       "details": [
         "Set of three, 0.5mm tip",
@@ -887,7 +887,7 @@
       "groupSku": "FLT-NB",
       "name": "Lay-Flat Notebook",
       "category": "desk",
-      "url": "products/lay-flat-notebook.html",
+      "url": "products/lay-flat-notebook",
       "summary": "An A5 dot-grid notebook with exposed binding, so every spread opens perfectly flat.",
       "details": [
         "A5, 192 pages",
@@ -955,7 +955,7 @@
       "groupSku": "FLT-MAT",
       "name": "Felt Desk Mat",
       "category": "desk",
-      "url": "products/felt-desk-mat.html",
+      "url": "products/felt-desk-mat",
       "summary": "A wide wool felt mat with a natural cork base. Quiet under a keyboard, soft under a forearm.",
       "details": [
         "90 x 40cm",
@@ -1010,7 +1010,7 @@
       "groupSku": "FLT-MUG",
       "name": "Stoneware Mug",
       "category": "home",
-      "url": "products/stoneware-mug.html",
+      "url": "products/stoneware-mug",
       "summary": "A thrown stoneware mug with a satin glaze and a raw clay foot. Holds a proper 350ml.",
       "details": [
         "350ml",
@@ -1065,7 +1065,7 @@
       "groupSku": "FLT-BTL",
       "name": "Insulated Bottle",
       "category": "home",
-      "url": "products/insulated-bottle.html",
+      "url": "products/insulated-bottle",
       "summary": "A 750ml double-wall steel bottle with a powder-coated finish. Cold for 24 hours, hot for 12.",
       "details": [
         "750ml capacity",
@@ -1133,7 +1133,7 @@
       "groupSku": "FLT-CDL",
       "name": "Soy Candle",
       "category": "home",
-      "url": "products/soy-candle.html",
+      "url": "products/soy-candle",
       "summary": "A 220g soy candle with a crackling wooden wick. Two scents for the end of the day.",
       "details": [
         "220g, around 45 hours burn",
@@ -1188,7 +1188,7 @@
       "groupSku": "FLT-BLD",
       "name": "Build Set",
       "category": "play",
-      "url": "products/build-set.html",
+      "url": "products/build-set",
       "summary": "Interlocking brick builds designed in house. Start with the campfire, or go big with the two-storey studio.",
       "details": [
         "Compatible with major brick systems",
@@ -1247,7 +1247,7 @@
       "groupSku": "FLT-PIN",
       "name": "Enamel Pin Set",
       "category": "play",
-      "url": "products/enamel-pin-set.html",
+      "url": "products/enamel-pin-set",
       "summary": "Four hard enamel pins with gold-plated outlines and double rubber clutches.",
       "details": [
         "Set of four",
@@ -1289,7 +1289,7 @@
       "groupSku": "FLT-STK",
       "name": "Sticker Sheet",
       "category": "play",
-      "url": "products/sticker-sheet.html",
+      "url": "products/sticker-sheet",
       "summary": "Ten die-cut vinyl stickers for laptops, bottles and notebooks.",
       "details": [
         "Ten die-cut stickers",

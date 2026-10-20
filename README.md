@@ -10,8 +10,8 @@ and 40 studio and editorial photographs.
 
 ```
 index.html            Home
-shop.html             All products, filter by category (?c=wear|carry|desk|home|play), sort
-products/<slug>.html  One static page per product (variant via ?color=ink, ?edition=studio, etc.)
+shop             All products, filter by category (?c=wear|carry|desk|home|play), sort
+products/<slug>  One static page per product (variant via ?color=ink, ?edition=studio, etc.)
 products.json         Full catalog with every variant, SKU, price and image URL
 feed.xml              Google Merchant style RSS feed, one item per variant
 sitemap.xml

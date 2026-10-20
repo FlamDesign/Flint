@@ -121,15 +121,15 @@ def head(title, desc, root, og_img=None, extra=""):
 
 def header(root, active=""):
     links = "".join(
-        f'<a href="{root}shop.html?c={k}"{" aria-current=\"page\"" if active == k else ""}>{name}</a>'
+        f'<a href="{root}shop?c={k}"{" aria-current=\"page\"" if active == k else ""}>{name}</a>'
         for k, name, _ in CATEGORIES
     )
     return f"""<header class="site-header">
   <nav class="nav-left" aria-label="Categories">
-    <a href="{root}shop.html"{' aria-current="page"' if active == "all" else ""}>Shop all</a>
+    <a href="{root}shop"{' aria-current="page"' if active == "all" else ""}>Shop all</a>
     <span class="nav-cats">{links}</span>
   </nav>
-  <a class="wordmark" href="{root}index.html" aria-label="{STORE['name']} home">{SPARK}<span>{STORE['name']}</span></a>
+  <a class="wordmark" href="{root or './'}" aria-label="{STORE['name']} home">{SPARK}<span>{STORE['name']}</span></a>
   <div class="nav-right">
     <button class="bag-btn" type="button" data-open-cart aria-label="Open bag">Bag <span class="bag-count" data-cart-count>0</span></button>
   </div>
@@ -139,7 +139,7 @@ def header(root, active=""):
   <div class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
     <div class="cart-head"><h2 id="cart-title">Your bag</h2><button type="button" class="link-btn" data-close-cart>Close</button></div>
     <ul class="cart-lines" data-cart-lines></ul>
-    <p class="cart-empty" data-cart-empty>Your bag is empty. Pick something up from the <a href="{root}shop.html">shop</a>.</p>
+    <p class="cart-empty" data-cart-empty>Your bag is empty. Pick something up from the <a href="{root}shop">shop</a>.</p>
     <div class="cart-foot" data-cart-foot>
       <div class="cart-total"><span>Subtotal</span><span data-cart-subtotal>$0</span></div>
       <button type="button" class="btn btn-solid btn-block" data-checkout>Check out</button>
@@ -152,12 +152,12 @@ def header(root, active=""):
 
 
 def footer(root):
-    cols = "".join(f'<li><a href="{root}shop.html?c={k}">{name}</a></li>' for k, name, _ in CATEGORIES)
+    cols = "".join(f'<li><a href="{root}shop?c={k}">{name}</a></li>' for k, name, _ in CATEGORIES)
     return f"""<footer class="site-footer">
   <div class="foot-brand">{SPARK}<p>{STORE['name']} is a small, considered collection of things to wear, carry, write with, build and keep.</p></div>
   <div class="foot-cols">
-    <div><h3>Shop</h3><ul><li><a href="{root}shop.html">Everything</a></li>{cols}</ul></div>
-    <div><h3>Help</h3><ul><li><a href="{root}shop.html">Shipping</a></li><li><a href="{root}shop.html">Returns</a></li><li><a href="{root}shop.html">Size guide</a></li></ul></div>
+    <div><h3>Shop</h3><ul><li><a href="{root}shop">Everything</a></li>{cols}</ul></div>
+    <div><h3>Help</h3><ul><li><a href="{root}shop">Shipping</a></li><li><a href="{root}shop">Returns</a></li><li><a href="{root}shop">Size guide</a></li></ul></div>
     <div><h3>Data</h3><ul><li><a href="{root}products.json">products.json</a></li><li><a href="{root}feed.xml">Product feed</a></li><li><a href="{root}sitemap.xml">Sitemap</a></li></ul></div>
   </div>
   <p class="foot-legal">Demo storefront. Products, prices and imagery are illustrative. &copy; {date.today().year} {STORE['name']}</p>
@@ -177,7 +177,7 @@ def card(p, root, i=0):
     badge = f'<span class="badge">{E(p["badge"])}</span>' if p.get("badge") else ""
     lo, _ = price_range(p)
     return f"""<article class="card" data-category="{p['category']}" data-price="{lo}" data-order="{i}" data-product-id="{p['slug']}" itemscope itemtype="https://schema.org/Product">
-  <a href="{root}products/{p['slug']}.html" class="card-link">
+  <a href="{root}products/{p['slug']}" class="card-link">
     <div class="card-img">{badge}<img src="{img(first['img'], root, thumb=True)}" alt="{E(p['name'])} in {E(first['label'])}" loading="lazy" width="896" height="1120" itemprop="image"></div>
     <div class="card-meta">
       <h3 itemprop="name">{E(p['name'])}</h3>
@@ -198,14 +198,14 @@ def page_home():
     for k, name, blurb in CATEGORIES:
         items = [p for p in PRODUCTS if p["category"] == k]
         thumbs = "".join(f'<img src="{img(p["values"][0]["img"], r, True)}" alt="" loading="lazy">' for p in items[:3])
-        cats += f"""<li><a href="shop.html?c={k}" class="cat-row">
+        cats += f"""<li><a href="shop?c={k}" class="cat-row">
   <span class="cat-name">{name}</span>
   <span class="cat-blurb">{E(blurb)}</span>
   <span class="cat-thumbs">{thumbs}</span>
   <span class="cat-count">{len(items)} {"item" if len(items) == 1 else "items"}</span>
 </a></li>"""
     bsets = next(p for p in PRODUCTS if p["slug"] == "build-set")
-    builds = "".join(f"""<a class="build" href="products/build-set.html?edition={val['label'].lower()}">
+    builds = "".join(f"""<a class="build" href="products/build-set?edition={val['label'].lower()}">
   <div class="build-img"><img src="{img(val['img'], r, True)}" alt="{E(val['label'])} build set" loading="lazy"></div>
   <h3>{E(val['label'])}</h3><p>{E(val['note'])}, {fmt(val['price'])}</p></a>""" for val in bsets["values"])
 
@@ -214,7 +214,7 @@ def page_home():
   <h1 class="hero-title">Made to be<br>picked up.</h1>
   <div class="hero-row">
     <p class="hero-copy">{E(STORE['description'])} Season one, in small runs.</p>
-    <a class="btn btn-solid" href="shop.html">Shop the collection</a>
+    <a class="btn btn-solid" href="shop">Shop the collection</a>
   </div>
   <figure class="hero-img"><img src="{img('ed-hero')}" alt="Someone in an ember hoodie and black cap sitting in a sunlit studio, holding a black mug" width="1536" height="864"></figure>
 </section>
@@ -225,7 +225,7 @@ def page_home():
 </section>
 
 <section class="grid-section" aria-labelledby="new-title">
-  <div class="section-head"><h2 id="new-title" class="section-title">This season</h2><a href="shop.html" class="text-link">See all {len(PRODUCTS)} pieces</a></div>
+  <div class="section-head"><h2 id="new-title" class="section-title">This season</h2><a href="shop" class="text-link">See all {len(PRODUCTS)} pieces</a></div>
   <div class="grid">{''.join(card(p, r, i) for i, p in enumerate(feat))}</div>
 </section>
 
@@ -234,7 +234,7 @@ def page_home():
   <div class="split-copy">
     <h2>The desk, kept simple</h2>
     <p>A felt mat that quiets the keyboard, a pen with real weight to it, and a notebook that opens flat on the first page and the last.</p>
-    <a class="btn btn-line" href="shop.html?c=desk">Shop desk</a>
+    <a class="btn btn-line" href="shop?c=desk">Shop desk</a>
   </div>
 </section>
 
@@ -247,8 +247,8 @@ def page_home():
 </section>
 
 <section class="pair">
-  <figure><img src="{img('ed-wear')}" alt="Close crop of a bone hoodie and a canvas tote against a sunlit wall" loading="lazy"><figcaption><a href="shop.html?c=wear">Wear</a> Heavyweight, a little boxy.</figcaption></figure>
-  <figure><img src="{img('ed-home')}" alt="Two lit candles beside a black mug and an ember beanie" loading="lazy"><figcaption><a href="shop.html?c=home">Home</a> For the end of the day.</figcaption></figure>
+  <figure><img src="{img('ed-wear')}" alt="Close crop of a bone hoodie and a canvas tote against a sunlit wall" loading="lazy"><figcaption><a href="shop?c=wear">Wear</a> Heavyweight, a little boxy.</figcaption></figure>
+  <figure><img src="{img('ed-home')}" alt="Two lit candles beside a black mug and an ember beanie" loading="lazy"><figcaption><a href="shop?c=home">Home</a> For the end of the day.</figcaption></figure>
 </section>
 
 <section class="signup">
@@ -262,7 +262,7 @@ def page_home():
 </section>
 </main>"""
     title = f"{STORE['name']} | {STORE['tagline']}"
-    ld = {"@context": "https://schema.org", "@type": "Store", "name": STORE["name"], "description": STORE["description"], "url": abs_url("index.html")}
+    ld = {"@context": "https://schema.org", "@type": "Store", "name": STORE["name"], "description": STORE["description"], "url": abs_url("")}
     extra = f'<script type="application/ld+json">{json.dumps(ld)}</script>'
     return head(title, STORE["description"], r, abs_img("ed-hero"), extra) + header(r) + body + footer(r)
 
@@ -290,7 +290,7 @@ def page_shop():
   <script type="application/json" id="cat-data">{blurbs}</script>
 </main>"""
     ld = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
-        {"@type": "ListItem", "position": i + 1, "url": abs_url(f"products/{p['slug']}.html"), "name": p["name"]} for i, p in enumerate(PRODUCTS)]}
+        {"@type": "ListItem", "position": i + 1, "url": abs_url(f"products/{p['slug']}"), "name": p["name"]} for i, p in enumerate(PRODUCTS)]}
     extra = f'<script type="application/ld+json">{json.dumps(ld)}</script>'
     return head(f"Shop | {STORE['name']}", STORE["description"], r, abs_img("ed-flatlay"), extra) + header(r, "all") + body + footer(r)
 
@@ -338,7 +338,7 @@ def page_product(p):
         "@context": "https://schema.org", "@type": "ProductGroup",
         "name": p["name"], "description": p["summary"], "productGroupID": f"FLT-{p['sku']}",
         "brand": {"@type": "Brand", "name": STORE["name"]}, "category": cat_name,
-        "url": abs_url(f"products/{p['slug']}.html"), "image": [abs_img(val["img"]) for val in p["values"]],
+        "url": abs_url(f"products/{p['slug']}"), "image": [abs_img(val["img"]) for val in p["values"]],
         "variesBy": (["https://schema.org/color"] if opt in ("Color", "Finish") else []) + (["https://schema.org/size"] if sizes else []),
         "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": lo, "highPrice": hi, "offerCount": len(data["variants"])},
         "hasVariant": [{
@@ -346,15 +346,15 @@ def page_product(p):
             "image": vv["image"],
             **({"color": vv[opt.lower()]} if opt in ("Color", "Finish") else {}),
             **({"size": vv["size"]} if "size" in vv else {}),
-            "offers": {"@type": "Offer", "price": vv["price"], "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": abs_url(f"products/{p['slug']}.html")},
+            "offers": {"@type": "Offer", "price": vv["price"], "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": abs_url(f"products/{p['slug']}")},
         } for vv in data["variants"]],
     }
     extra = (f'<meta property="og:type" content="product"><meta property="product:price:amount" content="{lo}"><meta property="product:price:currency" content="USD">'
-             f'<link rel="canonical" href="{abs_url("products/" + p["slug"] + ".html")}">'
+             f'<link rel="canonical" href="{abs_url("products/" + p["slug"])}">'
              f'<script type="application/ld+json">{json.dumps(ld)}</script>')
     badge = f'<span class="badge badge-inline">{E(p["badge"])}</span>' if p.get("badge") else ""
     body = f"""<main id="main" class="pdp" data-product-id="{p['slug']}">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="{r}shop.html">Shop</a><span aria-hidden="true">/</span><a href="{r}shop.html?c={p['category']}">{cat_name}</a></nav>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{r}shop">Shop</a><span aria-hidden="true">/</span><a href="{r}shop?c={p['category']}">{cat_name}</a></nav>
   <div class="pdp-layout">
     <div class="gallery">{gal}</div>
     <div class="buy">
@@ -393,7 +393,7 @@ def export_json():
         lo, hi = price_range(p)
         out["products"].append({
             "id": p["slug"], "groupSku": f"FLT-{p['sku']}", "name": p["name"], "category": p["category"],
-            "url": abs_url(f"products/{p['slug']}.html"), "summary": p["summary"], "details": p["details"],
+            "url": abs_url(f"products/{p['slug']}"), "summary": p["summary"], "details": p["details"],
             "materials": p["materials"], "care": p["care"], "badge": p.get("badge"),
             "priceMin": lo, "priceMax": hi, "currency": "USD",
             "options": [{"name": p["option"], "values": [{"label": val["label"], "hex": val["hex"], "image": abs_img(val["img"]), "thumbnail": img(val["img"], thumb=True) if not img(val["img"]).startswith("images/") else abs_url(img(val["img"], thumb=True)), **({"price": val["price"]} if "price" in val else {}), **({"note": val["note"]} if val.get("note") else {})} for val in p["values"]]}]
@@ -414,7 +414,7 @@ def export_feed():
     <g:item_group_id>FLT-{p['sku']}</g:item_group_id>
     <title>{E(title)}</title>
     <description>{E(p['summary'])}</description>
-    <link>{E(abs_url('products/' + p['slug'] + '.html'))}</link>
+    <link>{E(abs_url('products/' + p['slug']))}</link>
     <g:image_link>{E(vv['image'])}</g:image_link>
     <g:price>{vv['price']:.2f} USD</g:price>
     <g:availability>in_stock</g:availability>
@@ -426,7 +426,7 @@ def export_feed():
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
 <channel>
   <title>{STORE['name']} product feed</title>
-  <link>{E(abs_url('index.html'))}</link>
+  <link>{E(abs_url(''))}</link>
   <description>{E(STORE['description'])}</description>
 {chr(10).join(items)}
 </channel>
@@ -435,7 +435,7 @@ def export_feed():
 
 
 def export_sitemap():
-    urls = ["index.html", "shop.html"] + [f"products/{p['slug']}.html" for p in PRODUCTS]
+    urls = ["", "shop"] + [f"products/{p['slug']}" for p in PRODUCTS]
     body = "".join(f"  <url><loc>{E(abs_url(u))}</loc></url>\n" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}</urlset>\n'
 
@@ -443,9 +443,9 @@ def export_sitemap():
 def main():
     (ROOT / "products").mkdir(exist_ok=True)
     (ROOT / "index.html").write_text(page_home())
-    (ROOT / "shop.html").write_text(page_shop())
+    (ROOT / "shop").write_text(page_shop())
     for p in PRODUCTS:
-        (ROOT / "products" / f"{p['slug']}.html").write_text(page_product(p))
+        (ROOT / "products" / f"{p['slug']}").write_text(page_product(p))
     (ROOT / "products.json").write_text(export_json())
     (ROOT / "feed.xml").write_text(export_feed())
     (ROOT / "sitemap.xml").write_text(export_sitemap())
