@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop | Flint</title>
+<meta name="description" content="A small, considered collection of things to wear, carry, write with, build and keep.">
+<meta property="og:site_name" content="Flint">
+<meta property="og:title" content="Shop | Flint">
+<meta property="og:description" content="A small, considered collection of things to wear, carry, write with, build and keep.">
+<meta property="og:image" content="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010238_7d3b181b-8b2c-4373-bd56-88394092f6ed.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "products/heavyweight-hoodie.html", "name": "Heavyweight Hoodie"}, {"@type": "ListItem", "position": 2, "url": "products/boxy-tee.html", "name": "Boxy Tee"}, {"@type": "ListItem", "position": 3, "url": "products/loopback-crew.html", "name": "Loopback Crew"}, {"@type": "ListItem", "position": 4, "url": "products/six-panel-cap.html", "name": "Six-Panel Cap"}, {"@type": "ListItem", "position": 5, "url": "products/rib-beanie.html", "name": "Rib Beanie"}, {"@type": "ListItem", "position": 6, "url": "products/canvas-tote.html", "name": "Canvas Tote"}, {"@type": "ListItem", "position": 7, "url": "products/felt-laptop-sleeve.html", "name": "Felt Laptop Sleeve"}, {"@type": "ListItem", "position": 8, "url": "products/machined-pen.html", "name": "Machined Pen"}, {"@type": "ListItem", "position": 9, "url": "products/gel-pen-trio.html", "name": "Gel Pen Trio"}, {"@type": "ListItem", "position": 10, "url": "products/lay-flat-notebook.html", "name": "Lay-Flat Notebook"}, {"@type": "ListItem", "position": 11, "url": "products/felt-desk-mat.html", "name": "Felt Desk Mat"}, {"@type": "ListItem", "position": 12, "url": "products/stoneware-mug.html", "name": "Stoneware Mug"}, {"@type": "ListItem", "position": 13, "url": "products/insulated-bottle.html", "name": "Insulated Bottle"}, {"@type": "ListItem", "position": 14, "url": "products/soy-candle.html", "name": "Soy Candle"}, {"@type": "ListItem", "position": 15, "url": "products/build-set.html", "name": "Build Set"}, {"@type": "ListItem", "position": 16, "url": "products/enamel-pin-set.html", "name": "Enamel Pin Set"}, {"@type": "ListItem", "position": 17, "url": "products/sticker-sheet.html", "name": "Sticker Sheet"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<p class="notice">A demo storefront. Browse freely; nothing here is actually for sale.</p>
+<header class="site-header">
+  <nav class="nav-left" aria-label="Categories">
+    <a href="shop.html" aria-current="page">Shop all</a>
+    <span class="nav-cats"><a href="shop.html?c=wear">Wear</a><a href="shop.html?c=carry">Carry</a><a href="shop.html?c=desk">Desk</a><a href="shop.html?c=home">Home</a><a href="shop.html?c=play">Play</a></span>
+  </nav>
+  <a class="wordmark" href="index.html" aria-label="Flint home"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7.1 16.9 11.1 24 12C16.9 12.9 12.9 16.9 12 24C11.1 16.9 7.1 12.9 0 12C7.1 11.1 11.1 7.1 12 0Z"/></svg><span>Flint</span></a>
+  <div class="nav-right">
+    <button class="bag-btn" type="button" data-open-cart aria-label="Open bag">Bag <span class="bag-count" data-cart-count>0</span></button>
+  </div>
+</header>
+<aside class="cart" id="cart" aria-label="Bag" aria-hidden="true" data-root="">
+  <div class="cart-scrim" data-close-cart></div>
+  <div class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="cart-head"><h2 id="cart-title">Your bag</h2><button type="button" class="link-btn" data-close-cart>Close</button></div>
+    <ul class="cart-lines" data-cart-lines></ul>
+    <p class="cart-empty" data-cart-empty>Your bag is empty. Pick something up from the <a href="shop.html">shop</a>.</p>
+    <div class="cart-foot" data-cart-foot>
+      <div class="cart-total"><span>Subtotal</span><span data-cart-subtotal>$0</span></div>
+      <button type="button" class="btn btn-solid btn-block" data-checkout>Check out</button>
+      <p class="fineprint">Checkout is turned off on this demo storefront.</p>
+    </div>
+  </div>
+</aside>
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+<main id="main" class="shop">
+  <div class="shop-head">
+    <h1 class="shop-title" data-shop-title>Everything</h1>
+    <p class="shop-blurb" data-shop-blurb>All 17 pieces from season one.</p>
+  </div>
+  <div class="toolbar">
+    <div class="chips" role="group" aria-label="Filter by category"><button type="button" class="chip" data-filter="all" aria-pressed="true">Everything</button><button type="button" class="chip" data-filter="wear" aria-pressed="false">Wear</button><button type="button" class="chip" data-filter="carry" aria-pressed="false">Carry</button><button type="button" class="chip" data-filter="desk" aria-pressed="false">Desk</button><button type="button" class="chip" data-filter="home" aria-pressed="false">Home</button><button type="button" class="chip" data-filter="play" aria-pressed="false">Play</button></div>
+    <label class="sort">Sort <select data-sort>
+      <option value="featured">Featured</option>
+      <option value="low">Price, low to high</option>
+      <option value="high">Price, high to low</option>
+    </select></label>
+  </div>
+  <p class="result-count" data-count aria-live="polite">17 pieces</p>
+  <div class="grid" data-grid><article class="card" data-category="wear" data-price="88" data-order="0" data-product-id="heavyweight-hoodie" itemscope itemtype="https://schema.org/Product">
+  <a href="products/heavyweight-hoodie.html" class="card-link">
+    <div class="card-img"><span class="badge">Bestseller</span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd_min.webp" alt="Heavyweight Hoodie in Ember" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Heavyweight Hoodie</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="88">$88</p>
+      <span class="dots" aria-label="3 colors"><span class="dot" style="--c:#C9532A" title="Ember"></span><span class="dot" style="--c:#22211F" title="Ink"></span><span class="dot" style="--c:#E8E1D4" title="Bone"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="wear" data-price="38" data-order="1" data-product-id="boxy-tee" itemscope itemtype="https://schema.org/Product">
+  <a href="products/boxy-tee.html" class="card-link">
+    <div class="card-img"><span class="badge">New</span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d_min.webp" alt="Boxy Tee in Bone" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Boxy Tee</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="38">$38</p>
+      <span class="dots" aria-label="2 colors"><span class="dot" style="--c:#E8E1D4" title="Bone"></span><span class="dot" style="--c:#22211F" title="Ink"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="wear" data-price="78" data-order="2" data-product-id="loopback-crew" itemscope itemtype="https://schema.org/Product">
+  <a href="products/loopback-crew.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e_min.webp" alt="Loopback Crew in Ash" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Loopback Crew</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="78">$78</p>
+      <span class="dots" aria-label="2 colors"><span class="dot" style="--c:#A3A19C" title="Ash"></span><span class="dot" style="--c:#C9532A" title="Ember"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="wear" data-price="34" data-order="3" data-product-id="six-panel-cap" itemscope itemtype="https://schema.org/Product">
+  <a href="products/six-panel-cap.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_6d597da8-01ba-433e-a579-03538ce9d0a8_min.webp" alt="Six-Panel Cap in Ink" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Six-Panel Cap</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="34">$34</p>
+      <span class="dots" aria-label="3 colors"><span class="dot" style="--c:#22211F" title="Ink"></span><span class="dot" style="--c:#E8E1D4" title="Bone"></span><span class="dot" style="--c:#C9532A" title="Ember"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="wear" data-price="32" data-order="4" data-product-id="rib-beanie" itemscope itemtype="https://schema.org/Product">
+  <a href="products/rib-beanie.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_6c6069c5-a700-42bc-bfa9-f320b829fc12_min.webp" alt="Rib Beanie in Ember" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Rib Beanie</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="32">$32</p>
+      <span class="dots" aria-label="2 colors"><span class="dot" style="--c:#C9532A" title="Ember"></span><span class="dot" style="--c:#22211F" title="Ink"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="carry" data-price="28" data-order="5" data-product-id="canvas-tote" itemscope itemtype="https://schema.org/Product">
+  <a href="products/canvas-tote.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_14f76c76-1cf3-45b0-86ad-08a496622e55_min.webp" alt="Canvas Tote in Natural" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Canvas Tote</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="28">$28</p>
+      <span class="dots" aria-label="2 colors"><span class="dot" style="--c:#D9CDB4" title="Natural"></span><span class="dot" style="--c:#22211F" title="Ink"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="carry" data-price="54" data-order="6" data-product-id="felt-laptop-sleeve" itemscope itemtype="https://schema.org/Product">
+  <a href="products/felt-laptop-sleeve.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_de4d8c12-d89a-4ed1-8b10-d8d862f6f80f_min.webp" alt="Felt Laptop Sleeve in Charcoal" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Felt Laptop Sleeve</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="54">$54</p>
+      <span class="dots" aria-label="2 colors"><span class="dot" style="--c:#4A4947" title="Charcoal"></span><span class="dot" style="--c:#C9532A" title="Ember"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="desk" data-price="58" data-order="7" data-product-id="machined-pen" itemscope itemtype="https://schema.org/Product">
+  <a href="products/machined-pen.html" class="card-link">
+    <div class="card-img"><span class="badge">Limited</span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_1d4dfcfc-338d-4d48-a5fe-c065751cbe8d_min.webp" alt="Machined Pen in Brass" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Machined Pen</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="58">From $58</p>
+      <span class="dots" aria-label="2 finishs"><span class="dot" style="--c:#B8955A" title="Brass"></span><span class="dot" style="--c:#2A2A2A" title="Black"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="desk" data-price="16" data-order="8" data-product-id="gel-pen-trio" itemscope itemtype="https://schema.org/Product">
+  <a href="products/gel-pen-trio.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_fe59079d-eb43-4c72-a07f-9038fd722093_min.webp" alt="Gel Pen Trio in Ember, Ink, Bone" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Gel Pen Trio</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="16">$16</p>
+      
+    </div>
+  </a>
+</article><article class="card" data-category="desk" data-price="24" data-order="9" data-product-id="lay-flat-notebook" itemscope itemtype="https://schema.org/Product">
+  <a href="products/lay-flat-notebook.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_f08f1a92-e01f-44c5-806c-3ec9d3cf4720_min.webp" alt="Lay-Flat Notebook in Ember" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Lay-Flat Notebook</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="24">$24</p>
+      <span class="dots" aria-label="3 colors"><span class="dot" style="--c:#C9532A" title="Ember"></span><span class="dot" style="--c:#22211F" title="Ink"></span><span class="dot" style="--c:#E8E1D4" title="Bone"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="desk" data-price="48" data-order="10" data-product-id="felt-desk-mat" itemscope itemtype="https://schema.org/Product">
+  <a href="products/felt-desk-mat.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_8f0a3cd8-3d6e-4f1a-a4f9-30d1e22ad0f0_min.webp" alt="Felt Desk Mat in Ink" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Felt Desk Mat</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="48">$48</p>
+      <span class="dots" aria-label="2 colors"><span class="dot" style="--c:#22211F" title="Ink"></span><span class="dot" style="--c:#C9532A" title="Ember"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="home" data-price="30" data-order="11" data-product-id="stoneware-mug" itemscope itemtype="https://schema.org/Product">
+  <a href="products/stoneware-mug.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_68da30af-e9bc-4801-8fd9-726d032d4c17_min.webp" alt="Stoneware Mug in Bone" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Stoneware Mug</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="30">$30</p>
+      <span class="dots" aria-label="2 colors"><span class="dot" style="--c:#E8E1D4" title="Bone"></span><span class="dot" style="--c:#22211F" title="Ink"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="home" data-price="36" data-order="12" data-product-id="insulated-bottle" itemscope itemtype="https://schema.org/Product">
+  <a href="products/insulated-bottle.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_7f6c2609-0bcd-4da9-94bc-889b0889b444_min.webp" alt="Insulated Bottle in Ember" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Insulated Bottle</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="36">$36</p>
+      <span class="dots" aria-label="3 colors"><span class="dot" style="--c:#C9532A" title="Ember"></span><span class="dot" style="--c:#22211F" title="Ink"></span><span class="dot" style="--c:#E8E1D4" title="Bone"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="home" data-price="42" data-order="13" data-product-id="soy-candle" itemscope itemtype="https://schema.org/Product">
+  <a href="products/soy-candle.html" class="card-link">
+    <div class="card-img"><span class="badge">New</span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_8a457ba8-b189-4a28-821b-234550e47618_min.webp" alt="Soy Candle in Ember" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Soy Candle</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="42">$42</p>
+      <span class="dots" aria-label="2 scents"><span class="dot" style="--c:#B86A2C" title="Ember"></span><span class="dot" style="--c:#2E2C2A" title="Smoke"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="play" data-price="39" data-order="14" data-product-id="build-set" itemscope itemtype="https://schema.org/Product">
+  <a href="products/build-set.html" class="card-link">
+    <div class="card-img"><span class="badge">Limited</span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010237_d064cadf-9a36-46d4-aa5a-7cdf5a70ea17_min.webp" alt="Build Set in Campfire" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Build Set</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="39">From $39</p>
+      <span class="dots" aria-label="2 editions"><span class="dot" style="--c:#E07A2E" title="Campfire"></span><span class="dot" style="--c:#2B2A28" title="Studio"></span></span>
+    </div>
+  </a>
+</article><article class="card" data-category="play" data-price="22" data-order="15" data-product-id="enamel-pin-set" itemscope itemtype="https://schema.org/Product">
+  <a href="products/enamel-pin-set.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_f9e23572-765c-48fd-b411-52b3f414d866_min.webp" alt="Enamel Pin Set in Set of four" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Enamel Pin Set</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="22">$22</p>
+      
+    </div>
+  </a>
+</article><article class="card" data-category="play" data-price="8" data-order="16" data-product-id="sticker-sheet" itemscope itemtype="https://schema.org/Product">
+  <a href="products/sticker-sheet.html" class="card-link">
+    <div class="card-img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010239_27b38c90-5dbf-4b43-93b1-06151862c0d2_min.webp" alt="Sticker Sheet in Sheet of ten" loading="lazy" width="896" height="1120" itemprop="image"></div>
+    <div class="card-meta">
+      <h3 itemprop="name">Sticker Sheet</h3>
+      <p class="card-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8">$8</p>
+      
+    </div>
+  </a>
+</article></div>
+  <script type="application/json" id="cat-data">{"wear": {"name": "Wear", "blurb": "Heavyweight basics, cut a little boxy and built to soften with every wash."}, "carry": {"name": "Carry", "blurb": "Bags and sleeves for the things you take between rooms and cities."}, "desk": {"name": "Desk", "blurb": "Tools for writing things down before they disappear."}, "home": {"name": "Home", "blurb": "Things to drink from and light up at the end of a long day."}, "play": {"name": "Play", "blurb": "Build sets, pins and stickers. Small objects with no job but joy."}}</script>
+</main><footer class="site-footer">
+  <div class="foot-brand"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7.1 16.9 11.1 24 12C16.9 12.9 12.9 16.9 12 24C11.1 16.9 7.1 12.9 0 12C7.1 11.1 11.1 7.1 12 0Z"/></svg><p>Flint is a small, considered collection of things to wear, carry, write with, build and keep.</p></div>
+  <div class="foot-cols">
+    <div><h3>Shop</h3><ul><li><a href="shop.html">Everything</a></li><li><a href="shop.html?c=wear">Wear</a></li><li><a href="shop.html?c=carry">Carry</a></li><li><a href="shop.html?c=desk">Desk</a></li><li><a href="shop.html?c=home">Home</a></li><li><a href="shop.html?c=play">Play</a></li></ul></div>
+    <div><h3>Help</h3><ul><li><a href="shop.html">Shipping</a></li><li><a href="shop.html">Returns</a></li><li><a href="shop.html">Size guide</a></li></ul></div>
+    <div><h3>Data</h3><ul><li><a href="products.json">products.json</a></li><li><a href="feed.xml">Product feed</a></li><li><a href="sitemap.xml">Sitemap</a></li></ul></div>
+  </div>
+  <p class="foot-legal">Demo storefront. Products, prices and imagery are illustrative. &copy; 2026 Flint</p>
+</footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

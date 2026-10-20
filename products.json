@@ -1,0 +1,1330 @@
+{
+  "store": {
+    "name": "Flint",
+    "tagline": "Made to be picked up.",
+    "currency": "USD",
+    "description": "A small, considered collection of things to wear, carry, write with, build and keep."
+  },
+  "generated": "2026-10-19",
+  "categories": [
+    {
+      "id": "wear",
+      "name": "Wear",
+      "description": "Heavyweight basics, cut a little boxy and built to soften with every wash."
+    },
+    {
+      "id": "carry",
+      "name": "Carry",
+      "description": "Bags and sleeves for the things you take between rooms and cities."
+    },
+    {
+      "id": "desk",
+      "name": "Desk",
+      "description": "Tools for writing things down before they disappear."
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "description": "Things to drink from and light up at the end of a long day."
+    },
+    {
+      "id": "play",
+      "name": "Play",
+      "description": "Build sets, pins and stickers. Small objects with no job but joy."
+    }
+  ],
+  "products": [
+    {
+      "id": "heavyweight-hoodie",
+      "groupSku": "FLT-HOOD",
+      "name": "Heavyweight Hoodie",
+      "category": "wear",
+      "url": "products/heavyweight-hoodie.html",
+      "summary": "A 480gsm brushed fleece hoodie with a boxy body, dropped shoulders and a small embroidered spark on the chest.",
+      "details": [
+        "480gsm brushed-back cotton fleece",
+        "Boxy fit with dropped shoulders",
+        "Double-layer hood, no drawcords",
+        "Tonal embroidered spark on left chest",
+        "Garment dyed for a soft, lived-in hand"
+      ],
+      "materials": "100% organic cotton. Knitted and garment dyed in Portugal.",
+      "care": "Wash cold inside out. Hang dry. Pre-shrunk, but it still loves a low tumble.",
+      "badge": "Bestseller",
+      "priceMin": 88,
+      "priceMax": 88,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd_min.webp"
+            },
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225_min.webp"
+            },
+            {
+              "label": "Bone",
+              "hex": "#E8E1D4",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250_min.webp"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-HOOD-EMB-XS",
+          "color": "Ember",
+          "size": "XS",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-EMB-S",
+          "color": "Ember",
+          "size": "S",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-EMB-M",
+          "color": "Ember",
+          "size": "M",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-EMB-L",
+          "color": "Ember",
+          "size": "L",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-EMB-XL",
+          "color": "Ember",
+          "size": "XL",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-EMB-XXL",
+          "color": "Ember",
+          "size": "XXL",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_4e3f9436-b2bc-43bf-9806-0a9f6241dedd.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-INK-XS",
+          "color": "Ink",
+          "size": "XS",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-INK-S",
+          "color": "Ink",
+          "size": "S",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-INK-M",
+          "color": "Ink",
+          "size": "M",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-INK-L",
+          "color": "Ink",
+          "size": "L",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-INK-XL",
+          "color": "Ink",
+          "size": "XL",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-INK-XXL",
+          "color": "Ink",
+          "size": "XXL",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_fce6645b-a383-4d62-9435-7f72f8455225.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-BON-XS",
+          "color": "Bone",
+          "size": "XS",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-BON-S",
+          "color": "Bone",
+          "size": "S",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-BON-M",
+          "color": "Bone",
+          "size": "M",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-BON-L",
+          "color": "Bone",
+          "size": "L",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-BON-XL",
+          "color": "Bone",
+          "size": "XL",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-HOOD-BON-XXL",
+          "color": "Bone",
+          "size": "XXL",
+          "price": 88,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_8c0e451d-38cd-4453-a1c1-e7c0d8284250.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "boxy-tee",
+      "groupSku": "FLT-TEE",
+      "name": "Boxy Tee",
+      "category": "wear",
+      "url": "products/boxy-tee.html",
+      "summary": "A dense 260gsm jersey tee with a cropped boxy cut and a tight ribbed collar that keeps its shape.",
+      "details": [
+        "260gsm combed cotton jersey",
+        "Cropped, boxy silhouette",
+        "1.5cm ribbed collar",
+        "Printed spark on left chest"
+      ],
+      "materials": "100% combed cotton.",
+      "care": "Wash cold. Tumble dry low. Iron inside out.",
+      "badge": "New",
+      "priceMin": 38,
+      "priceMax": 38,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Bone",
+              "hex": "#E8E1D4",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d_min.webp"
+            },
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a_min.webp"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-TEE-BON-XS",
+          "color": "Bone",
+          "size": "XS",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-BON-S",
+          "color": "Bone",
+          "size": "S",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-BON-M",
+          "color": "Bone",
+          "size": "M",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-BON-L",
+          "color": "Bone",
+          "size": "L",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-BON-XL",
+          "color": "Bone",
+          "size": "XL",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-BON-XXL",
+          "color": "Bone",
+          "size": "XXL",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_106ceb3e-7356-45c0-992d-019d301f622d.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-INK-XS",
+          "color": "Ink",
+          "size": "XS",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-INK-S",
+          "color": "Ink",
+          "size": "S",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-INK-M",
+          "color": "Ink",
+          "size": "M",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-INK-L",
+          "color": "Ink",
+          "size": "L",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-INK-XL",
+          "color": "Ink",
+          "size": "XL",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TEE-INK-XXL",
+          "color": "Ink",
+          "size": "XXL",
+          "price": 38,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_51dbd68c-40be-425a-a3c1-317cdcb82a6a.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "loopback-crew",
+      "groupSku": "FLT-CREW",
+      "name": "Loopback Crew",
+      "category": "wear",
+      "url": "products/loopback-crew.html",
+      "summary": "An unbrushed loopback crewneck with a quiet embroidered wordmark. Lighter than the hoodie, made for in-between weather.",
+      "details": [
+        "400gsm loopback terry",
+        "Regular fit, ribbed cuffs and hem",
+        "Embroidered wordmark across the chest",
+        "Flatlock seams"
+      ],
+      "materials": "100% organic cotton.",
+      "care": "Wash cold inside out. Hang dry.",
+      "badge": null,
+      "priceMin": 78,
+      "priceMax": 78,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Ash",
+              "hex": "#A3A19C",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e_min.webp"
+            },
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977_min.webp"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-CREW-ASH-XS",
+          "color": "Ash",
+          "size": "XS",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-ASH-S",
+          "color": "Ash",
+          "size": "S",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-ASH-M",
+          "color": "Ash",
+          "size": "M",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-ASH-L",
+          "color": "Ash",
+          "size": "L",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-ASH-XL",
+          "color": "Ash",
+          "size": "XL",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-ASH-XXL",
+          "color": "Ash",
+          "size": "XXL",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_467a34f3-9661-4569-b0f9-1fc501c4531e.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-EMB-XS",
+          "color": "Ember",
+          "size": "XS",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-EMB-S",
+          "color": "Ember",
+          "size": "S",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-EMB-M",
+          "color": "Ember",
+          "size": "M",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-EMB-L",
+          "color": "Ember",
+          "size": "L",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-EMB-XL",
+          "color": "Ember",
+          "size": "XL",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CREW-EMB-XXL",
+          "color": "Ember",
+          "size": "XXL",
+          "price": 78,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_942d6d44-fba3-4e4a-ad41-ec1bbf967977.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "six-panel-cap",
+      "groupSku": "FLT-CAP",
+      "name": "Six-Panel Cap",
+      "category": "wear",
+      "url": "products/six-panel-cap.html",
+      "summary": "An unstructured washed twill cap with a low crown and a spark stitched on the front.",
+      "details": [
+        "Washed cotton twill",
+        "Unstructured, low-profile crown",
+        "Brass slider strap",
+        "Embroidered spark"
+      ],
+      "materials": "100% cotton twill.",
+      "care": "Spot clean. Reshape while damp.",
+      "badge": null,
+      "priceMin": 34,
+      "priceMax": 34,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_6d597da8-01ba-433e-a579-03538ce9d0a8.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_6d597da8-01ba-433e-a579-03538ce9d0a8_min.webp"
+            },
+            {
+              "label": "Bone",
+              "hex": "#E8E1D4",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_81d7f233-475a-4eb6-8248-b14d0bcc09e1.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_81d7f233-475a-4eb6-8248-b14d0bcc09e1_min.webp"
+            },
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_3afc4307-0bd2-4117-b82b-01fb4d6f540e.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_3afc4307-0bd2-4117-b82b-01fb4d6f540e_min.webp"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "One size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-CAP-INK",
+          "color": "Ink",
+          "size": "One size",
+          "price": 34,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_6d597da8-01ba-433e-a579-03538ce9d0a8.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CAP-BON",
+          "color": "Bone",
+          "size": "One size",
+          "price": 34,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005810_81d7f233-475a-4eb6-8248-b14d0bcc09e1.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CAP-EMB",
+          "color": "Ember",
+          "size": "One size",
+          "price": 34,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_3afc4307-0bd2-4117-b82b-01fb4d6f540e.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "rib-beanie",
+      "groupSku": "FLT-BEAN",
+      "name": "Rib Beanie",
+      "category": "wear",
+      "url": "products/rib-beanie.html",
+      "summary": "A chunky merino rib beanie with a deep cuff and a small woven label.",
+      "details": [
+        "Extra-fine merino wool",
+        "2x2 chunky rib",
+        "Deep fold-over cuff",
+        "Woven spark label"
+      ],
+      "materials": "100% extra-fine merino wool. Knitted in Scotland.",
+      "care": "Hand wash cold. Dry flat.",
+      "badge": null,
+      "priceMin": 32,
+      "priceMax": 32,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_6c6069c5-a700-42bc-bfa9-f320b829fc12.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_6c6069c5-a700-42bc-bfa9-f320b829fc12_min.webp"
+            },
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010016_a03b39e8-0b21-4ce6-8ecb-c70025115770.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010016_a03b39e8-0b21-4ce6-8ecb-c70025115770_min.webp"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "One size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-BEAN-EMB",
+          "color": "Ember",
+          "size": "One size",
+          "price": 32,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_005811_6c6069c5-a700-42bc-bfa9-f320b829fc12.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-BEAN-INK",
+          "color": "Ink",
+          "size": "One size",
+          "price": 32,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010016_a03b39e8-0b21-4ce6-8ecb-c70025115770.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "canvas-tote",
+      "groupSku": "FLT-TOTE",
+      "name": "Canvas Tote",
+      "category": "carry",
+      "url": "products/canvas-tote.html",
+      "summary": "A 16oz canvas tote with long handles, an inside pocket and a small screen print near the base.",
+      "details": [
+        "16oz heavyweight cotton canvas",
+        "Long handles for shoulder carry",
+        "Inside slip pocket",
+        "Screen printed in water-based ink"
+      ],
+      "materials": "100% cotton canvas.",
+      "care": "Spot clean or cold hand wash.",
+      "badge": null,
+      "priceMin": 28,
+      "priceMax": 28,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Natural",
+              "hex": "#D9CDB4",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_14f76c76-1cf3-45b0-86ad-08a496622e55.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_14f76c76-1cf3-45b0-86ad-08a496622e55_min.webp"
+            },
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_e05fedb4-bd2c-4e29-a309-766f93176860.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_e05fedb4-bd2c-4e29-a309-766f93176860_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-TOTE-NAT",
+          "color": "Natural",
+          "price": 28,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_14f76c76-1cf3-45b0-86ad-08a496622e55.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-TOTE-INK",
+          "color": "Ink",
+          "price": 28,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010014_e05fedb4-bd2c-4e29-a309-766f93176860.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "felt-laptop-sleeve",
+      "groupSku": "FLT-SLV",
+      "name": "Felt Laptop Sleeve",
+      "category": "carry",
+      "url": "products/felt-laptop-sleeve.html",
+      "summary": "A thick wool felt sleeve with a leather pull tab. Fits most 13 and 14 inch laptops.",
+      "details": [
+        "5mm pressed wool felt",
+        "Vegetable-tanned leather pull tab",
+        "Debossed spark on tab",
+        "Fits laptops up to 31.5 x 22.5cm"
+      ],
+      "materials": "Merino wool felt, vegetable-tanned leather.",
+      "care": "Brush clean. Keep leather away from water.",
+      "badge": null,
+      "priceMin": 54,
+      "priceMax": 54,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Charcoal",
+              "hex": "#4A4947",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_de4d8c12-d89a-4ed1-8b10-d8d862f6f80f.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_de4d8c12-d89a-4ed1-8b10-d8d862f6f80f_min.webp"
+            },
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_33502fe9-593a-4328-a22f-2b0762a76379.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_33502fe9-593a-4328-a22f-2b0762a76379_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-SLV-CHA",
+          "color": "Charcoal",
+          "price": 54,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_de4d8c12-d89a-4ed1-8b10-d8d862f6f80f.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-SLV-EMB",
+          "color": "Ember",
+          "price": 54,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010015_33502fe9-593a-4328-a22f-2b0762a76379.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "machined-pen",
+      "groupSku": "FLT-PEN",
+      "name": "Machined Pen",
+      "category": "desk",
+      "url": "products/machined-pen.html",
+      "summary": "A weighty ballpoint turned from solid bar stock, with a knurled grip and a tiny engraved spark.",
+      "details": [
+        "CNC machined from solid bar",
+        "Knurled grip, pocket clip",
+        "Takes standard Parker-style refills",
+        "Engraved spark near the clip"
+      ],
+      "materials": "Solid brass, or aluminum with black anodized finish.",
+      "care": "Brass develops a patina. Polish to restore, or let it age.",
+      "badge": "Limited",
+      "priceMin": 58,
+      "priceMax": 64,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Finish",
+          "values": [
+            {
+              "label": "Brass",
+              "hex": "#B8955A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_1d4dfcfc-338d-4d48-a5fe-c065751cbe8d.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_1d4dfcfc-338d-4d48-a5fe-c065751cbe8d_min.webp",
+              "price": 64
+            },
+            {
+              "label": "Black",
+              "hex": "#2A2A2A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_d2589661-9517-40bb-aa86-ea2cfa59205e.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_d2589661-9517-40bb-aa86-ea2cfa59205e_min.webp",
+              "price": 58
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-PEN-BRA",
+          "finish": "Brass",
+          "price": 64,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_1d4dfcfc-338d-4d48-a5fe-c065751cbe8d.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-PEN-BLA",
+          "finish": "Black",
+          "price": 58,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_d2589661-9517-40bb-aa86-ea2cfa59205e.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "gel-pen-trio",
+      "groupSku": "FLT-GEL",
+      "name": "Gel Pen Trio",
+      "category": "desk",
+      "url": "products/gel-pen-trio.html",
+      "summary": "Three slim 0.5mm gel pens in the house colors. Smooth, quick-drying, refillable.",
+      "details": [
+        "Set of three, 0.5mm tip",
+        "Quick-drying black gel ink",
+        "Refillable",
+        "Matte barrels"
+      ],
+      "materials": "Recycled ABS barrels.",
+      "care": "Cap after use.",
+      "badge": null,
+      "priceMin": 16,
+      "priceMax": 16,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Set",
+          "values": [
+            {
+              "label": "Ember, Ink, Bone",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_fe59079d-eb43-4c72-a07f-9038fd722093.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_fe59079d-eb43-4c72-a07f-9038fd722093_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-GEL-EMB",
+          "set": "Ember, Ink, Bone",
+          "price": 16,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_fe59079d-eb43-4c72-a07f-9038fd722093.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "lay-flat-notebook",
+      "groupSku": "FLT-NB",
+      "name": "Lay-Flat Notebook",
+      "category": "desk",
+      "url": "products/lay-flat-notebook.html",
+      "summary": "An A5 dot-grid notebook with exposed binding, so every spread opens perfectly flat.",
+      "details": [
+        "A5, 192 pages",
+        "100gsm dot-grid paper",
+        "Exposed Swiss binding, opens flat",
+        "Linen cloth cover"
+      ],
+      "materials": "FSC-certified paper, bookcloth cover.",
+      "care": "Keep dry.",
+      "badge": null,
+      "priceMin": 24,
+      "priceMax": 24,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_f08f1a92-e01f-44c5-806c-3ec9d3cf4720.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_f08f1a92-e01f-44c5-806c-3ec9d3cf4720_min.webp"
+            },
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_e6443d06-caf8-4eea-b6b9-31b469aa1c1c.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_e6443d06-caf8-4eea-b6b9-31b469aa1c1c_min.webp"
+            },
+            {
+              "label": "Bone",
+              "hex": "#E8E1D4",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_5e3a82a6-9476-4217-a4a0-502580110b57.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_5e3a82a6-9476-4217-a4a0-502580110b57_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-NB-EMB",
+          "color": "Ember",
+          "price": 24,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_f08f1a92-e01f-44c5-806c-3ec9d3cf4720.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-NB-INK",
+          "color": "Ink",
+          "price": 24,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_e6443d06-caf8-4eea-b6b9-31b469aa1c1c.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-NB-BON",
+          "color": "Bone",
+          "price": 24,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_5e3a82a6-9476-4217-a4a0-502580110b57.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "felt-desk-mat",
+      "groupSku": "FLT-MAT",
+      "name": "Felt Desk Mat",
+      "category": "desk",
+      "url": "products/felt-desk-mat.html",
+      "summary": "A wide wool felt mat with a natural cork base. Quiet under a keyboard, soft under a forearm.",
+      "details": [
+        "90 x 40cm",
+        "3mm wool felt top",
+        "Natural cork base, non-slip",
+        "Stitched spark in the corner"
+      ],
+      "materials": "Merino wool felt, natural cork.",
+      "care": "Lint roll. Spot clean.",
+      "badge": null,
+      "priceMin": 48,
+      "priceMax": 48,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_8f0a3cd8-3d6e-4f1a-a4f9-30d1e22ad0f0.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_8f0a3cd8-3d6e-4f1a-a4f9-30d1e22ad0f0_min.webp"
+            },
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_9daecb72-b10c-4480-98a8-d4ea8b081eb8.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_9daecb72-b10c-4480-98a8-d4ea8b081eb8_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-MAT-INK",
+          "color": "Ink",
+          "price": 48,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010104_8f0a3cd8-3d6e-4f1a-a4f9-30d1e22ad0f0.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-MAT-EMB",
+          "color": "Ember",
+          "price": 48,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010105_9daecb72-b10c-4480-98a8-d4ea8b081eb8.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "stoneware-mug",
+      "groupSku": "FLT-MUG",
+      "name": "Stoneware Mug",
+      "category": "home",
+      "url": "products/stoneware-mug.html",
+      "summary": "A thrown stoneware mug with a satin glaze and a raw clay foot. Holds a proper 350ml.",
+      "details": [
+        "350ml",
+        "Hand thrown stoneware",
+        "Satin glaze, raw clay foot",
+        "Dishwasher and microwave safe"
+      ],
+      "materials": "Speckled stoneware clay.",
+      "care": "Dishwasher safe. Each piece varies slightly.",
+      "badge": null,
+      "priceMin": 30,
+      "priceMax": 30,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Bone",
+              "hex": "#E8E1D4",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_68da30af-e9bc-4801-8fd9-726d032d4c17.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_68da30af-e9bc-4801-8fd9-726d032d4c17_min.webp"
+            },
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_5619929f-82af-47af-bba3-ffab91936c70.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_5619929f-82af-47af-bba3-ffab91936c70_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-MUG-BON",
+          "color": "Bone",
+          "price": 30,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_68da30af-e9bc-4801-8fd9-726d032d4c17.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-MUG-INK",
+          "color": "Ink",
+          "price": 30,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_5619929f-82af-47af-bba3-ffab91936c70.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "insulated-bottle",
+      "groupSku": "FLT-BTL",
+      "name": "Insulated Bottle",
+      "category": "home",
+      "url": "products/insulated-bottle.html",
+      "summary": "A 750ml double-wall steel bottle with a powder-coated finish. Cold for 24 hours, hot for 12.",
+      "details": [
+        "750ml capacity",
+        "Double-wall vacuum insulation",
+        "Powder-coated, grippy finish",
+        "Leakproof steel cap with loop"
+      ],
+      "materials": "18/8 stainless steel.",
+      "care": "Hand wash only.",
+      "badge": null,
+      "priceMin": 36,
+      "priceMax": 36,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Ember",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_7f6c2609-0bcd-4da9-94bc-889b0889b444.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_7f6c2609-0bcd-4da9-94bc-889b0889b444_min.webp"
+            },
+            {
+              "label": "Ink",
+              "hex": "#22211F",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_22a05e6e-35d0-4d03-bec3-6e34adfbad38.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_22a05e6e-35d0-4d03-bec3-6e34adfbad38_min.webp"
+            },
+            {
+              "label": "Bone",
+              "hex": "#E8E1D4",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010150_0b38e09d-12ed-44fa-b324-1b74a54bb6cc.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010150_0b38e09d-12ed-44fa-b324-1b74a54bb6cc_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-BTL-EMB",
+          "color": "Ember",
+          "price": 36,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_7f6c2609-0bcd-4da9-94bc-889b0889b444.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-BTL-INK",
+          "color": "Ink",
+          "price": 36,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010148_22a05e6e-35d0-4d03-bec3-6e34adfbad38.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-BTL-BON",
+          "color": "Bone",
+          "price": 36,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010150_0b38e09d-12ed-44fa-b324-1b74a54bb6cc.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "soy-candle",
+      "groupSku": "FLT-CDL",
+      "name": "Soy Candle",
+      "category": "home",
+      "url": "products/soy-candle.html",
+      "summary": "A 220g soy candle with a crackling wooden wick. Two scents for the end of the day.",
+      "details": [
+        "220g, around 45 hours burn",
+        "Crackling wooden wick",
+        "Reusable glass tumbler with lid",
+        "Ember: cedar, amber, smoked vanilla. Smoke: vetiver, black tea, birch tar"
+      ],
+      "materials": "Soy wax, phthalate-free fragrance.",
+      "care": "Trim the wick before each burn. Never leave unattended.",
+      "badge": "New",
+      "priceMin": 42,
+      "priceMax": 42,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Scent",
+          "values": [
+            {
+              "label": "Ember",
+              "hex": "#B86A2C",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_8a457ba8-b189-4a28-821b-234550e47618.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_8a457ba8-b189-4a28-821b-234550e47618_min.webp"
+            },
+            {
+              "label": "Smoke",
+              "hex": "#2E2C2A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_53d13ee4-34ec-416a-8735-3a67b0f52f92.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_53d13ee4-34ec-416a-8735-3a67b0f52f92_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-CDL-EMB",
+          "scent": "Ember",
+          "price": 42,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_8a457ba8-b189-4a28-821b-234550e47618.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-CDL-SMO",
+          "scent": "Smoke",
+          "price": 42,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_53d13ee4-34ec-416a-8735-3a67b0f52f92.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "build-set",
+      "groupSku": "FLT-BLD",
+      "name": "Build Set",
+      "category": "play",
+      "url": "products/build-set.html",
+      "summary": "Interlocking brick builds designed in house. Start with the campfire, or go big with the two-storey studio.",
+      "details": [
+        "Compatible with major brick systems",
+        "Printed instruction booklet",
+        "Ages 10 and up",
+        "Campfire: 214 pieces. Studio: 486 pieces with a light-up sign"
+      ],
+      "materials": "ABS plastic bricks, recycled card box.",
+      "care": "Dust with a soft brush.",
+      "badge": "Limited",
+      "priceMin": 39,
+      "priceMax": 89,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Edition",
+          "values": [
+            {
+              "label": "Campfire",
+              "hex": "#E07A2E",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010237_d064cadf-9a36-46d4-aa5a-7cdf5a70ea17.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010237_d064cadf-9a36-46d4-aa5a-7cdf5a70ea17_min.webp",
+              "price": 39,
+              "note": "214 pieces"
+            },
+            {
+              "label": "Studio",
+              "hex": "#2B2A28",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010238_8cba50eb-b0a2-4761-bb3a-502dee2a6e12.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010238_8cba50eb-b0a2-4761-bb3a-502dee2a6e12_min.webp",
+              "price": 89,
+              "note": "486 pieces"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-BLD-CAM",
+          "edition": "Campfire",
+          "price": 39,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010237_d064cadf-9a36-46d4-aa5a-7cdf5a70ea17.png",
+          "available": true
+        },
+        {
+          "sku": "FLT-BLD-STU",
+          "edition": "Studio",
+          "price": 89,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010238_8cba50eb-b0a2-4761-bb3a-502dee2a6e12.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "enamel-pin-set",
+      "groupSku": "FLT-PIN",
+      "name": "Enamel Pin Set",
+      "category": "play",
+      "url": "products/enamel-pin-set.html",
+      "summary": "Four hard enamel pins with gold-plated outlines and double rubber clutches.",
+      "details": [
+        "Set of four",
+        "Hard enamel, gold-plated",
+        "Around 20mm each",
+        "Double clutch backs"
+      ],
+      "materials": "Zinc alloy, enamel.",
+      "care": "Wipe clean.",
+      "badge": null,
+      "priceMin": 22,
+      "priceMax": 22,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Set",
+          "values": [
+            {
+              "label": "Set of four",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_f9e23572-765c-48fd-b411-52b3f414d866.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_f9e23572-765c-48fd-b411-52b3f414d866_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-PIN-SET",
+          "set": "Set of four",
+          "price": 22,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010149_f9e23572-765c-48fd-b411-52b3f414d866.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "sticker-sheet",
+      "groupSku": "FLT-STK",
+      "name": "Sticker Sheet",
+      "category": "play",
+      "url": "products/sticker-sheet.html",
+      "summary": "Ten die-cut vinyl stickers for laptops, bottles and notebooks.",
+      "details": [
+        "Ten die-cut stickers",
+        "Matte waterproof vinyl",
+        "UV resistant",
+        "A5 sheet"
+      ],
+      "materials": "Matte vinyl.",
+      "care": "Apply to clean, dry surfaces.",
+      "badge": null,
+      "priceMin": 8,
+      "priceMax": 8,
+      "currency": "USD",
+      "options": [
+        {
+          "name": "Set",
+          "values": [
+            {
+              "label": "Sheet of ten",
+              "hex": "#C9532A",
+              "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010239_27b38c90-5dbf-4b43-93b1-06151862c0d2.png",
+              "thumbnail": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010239_27b38c90-5dbf-4b43-93b1-06151862c0d2_min.webp"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "sku": "FLT-STK-SHE",
+          "set": "Sheet of ten",
+          "price": 8,
+          "image": "https://d8j0ntlcm91z4.cloudfront.net/user_31xY7rEuTbrIPW9ueezZ67e5li5/hf_20261020_010239_27b38c90-5dbf-4b43-93b1-06151862c0d2.png",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
