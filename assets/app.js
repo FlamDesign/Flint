@@ -112,15 +112,18 @@
     const mainImg = $("[data-main-img]");
 
     const variant = () => P.variants.find(v => v[optKey] === value.label && (!P.needsSize || v.size === size));
-    const sync = () => {
+    const sync = (instant) => {
       $$(".swatch").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.value === value.label)));
       const lbl = $("[data-opt-label]"); if (lbl) lbl.textContent = value.label;
       $("[data-price]").textContent = money(value.price);
       if (mainImg && !mainImg.src.endsWith(value.img.replace(/^\.\.\//, ""))) {
+        if (instant) { mainImg.src = value.img; mainImg.alt = `${P.name} in ${value.label}`; }
+        else {
         mainImg.classList.add("is-swapping");
         const pre = new Image();
         pre.onload = () => { mainImg.src = value.img; mainImg.alt = `${P.name} in ${value.label}`; mainImg.classList.remove("is-swapping"); };
         pre.src = value.img;
+        }
       }
       const v = variant();
       $("[data-sku]").textContent = v ? v.sku : "select a size";
@@ -155,7 +158,7 @@
       });
       save(lines); render(); openCart();
     });
-    sync();
+    sync(true);
   }
 
   render();
