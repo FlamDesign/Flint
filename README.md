@@ -10,16 +10,20 @@ and 40 studio and editorial photographs.
 
 ```
 index.html            Home
-shop             All products, filter by category (?c=wear|carry|desk|home|play), sort
-products/<slug>  One static page per product (variant via ?color=ink, ?edition=studio, etc.)
+shop.html             All products, filter by category (?c=wear|carry|desk|home|play), sort
+products/<slug>.html  One static page per product (variant via ?color=ink, ?edition=studio, etc.)
 products.json         Full catalog with every variant, SKU, price and image URL
 feed.xml              Google Merchant style RSS feed, one item per variant
+feed.csv              Same feed as CSV (Google Merchant / Meta catalog columns)
 sitemap.xml
 assets/               styles.css, app.js, favicon.svg
 catalog.py            Source of truth for products
 build.py              Generates every page and data file from catalog.py
 images.tsv            Image key to hosted URL map
 ```
+
+Pages are linked without the extension (`/shop`, `/products/<slug>`); GitHub Pages
+resolves those to the `.html` files.
 
 ## Data available on every product page
 
@@ -36,4 +40,5 @@ images into the site, rebuilds with absolute URLs, and deploys.
 
 ## Editing
 
-Change `catalog.py`, run `python3 build.py`, commit. Python 3.12+.
+Change `catalog.py` and push. CI rebuilds everything; generated files are not committed.
+To preview locally: `python3 build.py`. Python 3.12+.

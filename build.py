@@ -8,7 +8,9 @@ Usage:
 Images resolve to ./images/<key>.png when that file exists locally
 (run scripts/fetch-images.sh once), otherwise to the hosted CDN copy.
 """
+import csv
 import html
+import io
 import json
 import os
 from datetime import date
@@ -158,7 +160,7 @@ def footer(root):
   <div class="foot-cols">
     <div><h3>Shop</h3><ul><li><a href="{root}shop">Everything</a></li>{cols}</ul></div>
     <div><h3>Help</h3><ul><li><a href="{root}shop">Shipping</a></li><li><a href="{root}shop">Returns</a></li><li><a href="{root}shop">Size guide</a></li></ul></div>
-    <div><h3>Data</h3><ul><li><a href="{root}products.json">products.json</a></li><li><a href="{root}feed.xml">Product feed</a></li><li><a href="{root}sitemap.xml">Sitemap</a></li></ul></div>
+    <div><h3>Data</h3><ul><li><a href="{root}products.json">products.json</a></li><li><a href="{root}feed.xml">Product feed (XML)</a></li><li><a href="{root}feed.csv">Product feed (CSV)</a></li><li><a href="{root}sitemap.xml">Sitemap</a></li></ul></div>
   </div>
   <p class="foot-legal">Demo storefront. Products, prices and imagery are illustrative. &copy; {date.today().year} {STORE['name']}</p>
 </footer>
@@ -434,6 +436,52 @@ def export_feed():
 """
 
 
+FEED_COLUMNS = [
+    "id", "item_group_id", "title", "description", "link", "image_link", "additional_image_link",
+    "price", "availability", "condition", "brand", "product_type", "variant_option", "variant_value",
+    "color", "size", "material", "badge",
+]
+
+
+def export_feed_csv():
+    """One row per variant. Column names follow Google Merchant Center and Meta catalog specs."""
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=FEED_COLUMNS, lineterminator="\n")
+    w.writeheader()
+    for p in PRODUCTS:
+        opt = p["option"]
+        key = opt.lower()
+        multi = len(p["values"]) > 1
+        for vv in variants(p):
+            value = vv[key]
+            size = vv.get("size", "")
+            attrs = [value if multi else "", size if size != "One size" else ""]
+            val = next(x for x in p["values"] if x["label"] == value)
+            link = abs_url(f"products/{p['slug']}") + (f"?{key}={value.lower()}" if multi else "")
+            extra = [abs_img(k) for k in EDITORIAL[p["category"]]]
+            w.writerow({
+                "id": vv["sku"],
+                "item_group_id": f"FLT-{p['sku']}",
+                "title": p["name"] + "".join(f" - {a}" for a in attrs if a),
+                "description": p["summary"],
+                "link": link,
+                "image_link": vv["image"],
+                "additional_image_link": ",".join(extra),
+                "price": f"{vv['price']:.2f} USD",
+                "availability": "in_stock",
+                "condition": "new",
+                "brand": STORE["name"],
+                "product_type": f"{CAT[p['category']][0]} > {p['name']}",
+                "variant_option": opt,
+                "variant_value": value,
+                "color": value if opt in ("Color", "Finish") else "",
+                "size": size,
+                "material": p["materials"].split(".")[0],
+                "badge": p.get("badge", ""),
+            })
+    return buf.getvalue()
+
+
 def export_sitemap():
     urls = ["", "shop"] + [f"products/{p['slug']}" for p in PRODUCTS]
     body = "".join(f"  <url><loc>{E(abs_url(u))}</loc></url>\n" for u in urls)
@@ -443,11 +491,12 @@ def export_sitemap():
 def main():
     (ROOT / "products").mkdir(exist_ok=True)
     (ROOT / "index.html").write_text(page_home())
-    (ROOT / "shop").write_text(page_shop())
+    (ROOT / "shop.html").write_text(page_shop())
     for p in PRODUCTS:
-        (ROOT / "products" / f"{p['slug']}").write_text(page_product(p))
+        (ROOT / "products" / f"{p['slug']}.html").write_text(page_product(p))
     (ROOT / "products.json").write_text(export_json())
     (ROOT / "feed.xml").write_text(export_feed())
+    (ROOT / "feed.csv").write_text(export_feed_csv(), newline="")
     (ROOT / "sitemap.xml").write_text(export_sitemap())
     print(f"Built {len(PRODUCTS)} product pages, {sum(len(variants(p)) for p in PRODUCTS)} variants.")
 

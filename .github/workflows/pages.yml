@@ -28,11 +28,13 @@ jobs:
       - name: Vendor product images into the site
         run: bash scripts/fetch-images.sh
       - name: Build with absolute URLs for feeds and OG tags
-        run: BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" python3 build.py
+        run: |
+          OWNER="${{ github.repository_owner }}"
+          BASE_URL="https://${OWNER,,}.github.io/${{ github.event.repository.name }}" python3 build.py
       - name: Package site
         run: |
           mkdir _site
-          cp -r index.html shop.html products assets images products.json feed.xml sitemap.xml .nojekyll _site/
+          cp -r index.html shop.html products assets images products.json feed.xml feed.csv sitemap.xml .nojekyll _site/
       - uses: actions/upload-pages-artifact@v3
       - id: deployment
         uses: actions/deploy-pages@v4
